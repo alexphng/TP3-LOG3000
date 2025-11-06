@@ -42,7 +42,7 @@ python -m venv .venv
 3. Installer les dépendances :
 
 ```powershell
-pip install flask
+pip install -r requirements.txt
 ```
 
 4. Lancer l'application en local :

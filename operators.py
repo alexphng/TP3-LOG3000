@@ -48,7 +48,7 @@ def multiply(a, b):
 
 
 def divide(a, b):
-        """Retourne le résultat de la division de a par b (a / b).
+        """Retourne le résultat de la division de a par b.
 
         Args:
         - a: nombre (dividende)
