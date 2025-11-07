@@ -84,7 +84,7 @@ python -m unittest discover -v tests
   expressions.
 - `operators.py` — fonctions arithmétiques utilisées par `calculate`.
 - `templates/` — templates HTML (interface utilisateur).
-- `tests/` — tests unitaires du projet
+- `tests/` — tests unitaires du projet.
 - `static/` — ressources statiques (CSS, images).
 - `README.md` — ce fichier.
 
