@@ -12,11 +12,11 @@ def add(a, b):
         """Retourne la somme de a et b.
 
         Args:
-        - a: nombre
-        - b: nombre
+        - a (float): Premier opérande
+        - b (float): Deuxième opérade
 
         Returns:
-        - nombre: la somme de a et b
+        - float: la somme de a et b
         """
         return a + b
 
@@ -25,11 +25,11 @@ def subtract(a, b):
         """Retourne le résultat de la soustraction entre a et b.
 
         Args:
-        - a: nombre (valeur de gauche dans l'expression)
-        - b: nombre (valeur de droite dans l'expression)
+        - a (float): nombre (valeur de gauche dans l'expression)
+        - b (float): nombre (valeur de droite dans l'expression)
 
         Returns:
-        - nombre: la différence entre a et b
+        - float: la différence entre a et b
         """
         return a - b
 
@@ -38,11 +38,11 @@ def multiply(a, b):
         """Retourne le résultat de la multiplication de a et b.
 
         Args:
-        - a: nombre
-        - b: nombre
+        - a (float): Premier opérande
+        - b (float): Deuxième opérande
 
         Returns:
-        - nombre: le produit de a et b
+        - float: le produit de a et b
         """
         return a * b
 
@@ -51,11 +51,11 @@ def divide(a, b):
         """Retourne le résultat de la division de a par b.
 
         Args:
-        - a: nombre (dividende)
-        - b: nombre (diviseur) (doit être non nul sinon une
-            ZeroDivisionError sera levée par Python.)
+        - a (float): Dividende
+        - b (float): Diviseur. Doit être non nul sinon une
+            ZeroDivisionError sera levée par Python.
 
         Returns:
-        - nombre: le quotient de a divisé par b
+        - float: le quotient de a divisé par b
         """
         return a / b
